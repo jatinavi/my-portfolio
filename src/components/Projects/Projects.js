@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import eccChat from "../../Assets/Projects/eccChat.png";
 import handGesture from "../../Assets/Projects/handGesture.png";
 import unetSegmentation from "../../Assets/Projects/unetSegmentation.png";
 import inventorySystem from "../../Assets/Projects/inventorySystem.png";
