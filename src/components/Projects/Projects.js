@@ -21,17 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eccChat}
-              isBlog={false}
-              title="ECC Encrypted Chat Application"
-              description="Created a secure end-to-end encrypted chat application using Java, Socket Programming, ECC, and ECDH for secure communication and data privacy."
-              ghLink="https://github.com/jatin/ecc-encrypted-chat"
-              demoLink="https://example.com/ecc-chat-demo"
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={handGesture}
