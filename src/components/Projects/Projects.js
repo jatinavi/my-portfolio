@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import eccChat from "../../Assets/Projects/eccChat.png";
+import handGesture from "../../Assets/Projects/handGesture.png";
+import unetSegmentation from "../../Assets/Projects/unetSegmentation.png";
+import inventorySystem from "../../Assets/Projects/inventorySystem.png";
+import webScraping from "../../Assets/Projects/webScraping.png";
+import deepfakeAudio from "../../Assets/Projects/deepfakeAudio.png";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,68 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={eccChat}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="ECC Encrypted Chat Application"
+              description="Created a secure end-to-end encrypted chat application using Java, Socket Programming, ECC, and ECDH for secure communication and data privacy."
+              ghLink="https://github.com/jatin/ecc-encrypted-chat"
+              demoLink="https://example.com/ecc-chat-demo"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={handGesture}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Hand Gesture Controlled Media Player"
+              description="Built a gesture recognition system using OpenCV and ML for controlling media player functions through hand gestures, enabling touch-free interaction."
+              ghLink="https://github.com/jatin/hand-gesture-media-player"
+              demoLink="https://example.com/hand-gesture-demo"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={unetSegmentation}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Image Segmentation with UNET"
+              description="Developed a segmentation model using CNN and UNET architecture for accurate image segmentation on medical and satellite images."
+              ghLink="https://github.com/jatin/unet-image-segmentation"
+              demoLink="https://example.com/unet-segmentation-demo"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={inventorySystem}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Inventory Management System"
+              description="Created an Inventory Management System using Django with features like product add/delete/view. Implemented CRUD operations for product management."
+              ghLink="https://github.com/jatin/inventory-management-system"
+              demoLink="https://example.com/inventory-demo"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={webScraping}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Web Scraping Project"
+              description="Performed web scraping of dynamic websites using Selenium, BeautifulSoup4, and Requests to extract structured data from multiple sources."
+              ghLink="https://github.com/jatin/web-scraping-project"
+              demoLink="https://example.com/web-scraping-demo"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={deepfakeAudio}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Deepfake Audio Detection"
+              description="Built a deep learning-based system to detect spoofed audio generated by TTS and Voice Conversion using spectrogram analysis."
+              ghLink="https://github.com/jatin/deepfake-audio-detection"
+              demoLink="https://example.com/deepfake-audio-demo"
             />
           </Col>
         </Row>
