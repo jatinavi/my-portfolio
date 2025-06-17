@@ -3,7 +3,7 @@
   <a href="https://my-portfolio-five-beta-29.vercel.app" target="_blank">JatinBalchandani</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="Images/readme_image.png" />
 </div>
 
 <br/>
