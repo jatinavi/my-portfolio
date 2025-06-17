@@ -1,9 +1,9 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="/" target="_blank">JatinKBalchandani</a>
+  <a href="https://soumyajit.vercel.app/" target="_blank">JatinBalchandani</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-   i m g1.png" />
+  <img alt="Demo" src="./Images/readme-i m g1.png" />
 </div>
 
 <br/>
